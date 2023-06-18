@@ -1,0 +1,15 @@
+Trabalho era para ser realizado com o tema de esportes.
+Escolhi o esporte tiro com arco.
+Foram criadas 4 páginas, cada uma com uma particularidade, alem de informacoes sobre o tema.
+
+1-A página do index possui um calendário sempre atualizado de acordo com o mês, destacando o dia atual.
+Se atualizada, muda a imagem no fim da página em até 3 imagens diferentes. (Utilização de Web Storage)
+
+2-A página história possui um sumário que leva até os tópicos indicados, tambem possui eventos de adicionar elementos na página.
+
+3-A página do Quiz possui perguntas aleatorias - sao 20 perguntas no total que sao sorteadas entre elas sem repetir até completar às 20.
+Tambem informa no final da tela a porcentagem do quanto foi acertado no quiz e atualiza para novas perguntas.
+
+4-Na curiosidade, utilizei botoes para testar mudancas de cor, de tamanho de letra e de cor de fundo.
+
+Algumas transições foram adicionadas para deixar as páginas mais interativas e agradáveis.
