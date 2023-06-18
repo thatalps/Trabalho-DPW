@@ -1,0 +1,49 @@
+@media (max-width: 600px){
+
+    *{
+        font-size: .8rem;
+    }
+
+    #titulo{
+        font-size: 2rem;
+    }
+
+    section{
+        width: 95% !important;
+    }
+
+    footer #info-container{
+        width: 100%;
+    }
+
+    #sumario {
+        max-height: none;
+    }
+
+    #sumario a::before{
+        content: '';
+    }
+    #container-quiz .r-correta, #container-quiz .r-errada{
+        width: 100%;
+    }
+
+    #btn-resposta{
+        padding: 5%;
+        width: 80%;
+    }
+
+    #img-size-3 {
+        width: 300px;
+    }
+}
+@media (min-width: 601px) and (max-width: 1200px){
+    #img-size-3 {
+        width: 500px;
+    }
+}
+@media (min-width: 1201px){
+    #img-size-3 {
+        width: 600px;
+    }
+
+}

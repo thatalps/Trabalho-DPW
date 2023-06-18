@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/mediaquery.css">
+    <title> Tiro com Arco </title>
+    <link rel="icon"  type="image/png"  href="Imagens/icon.png"></head>
+<body id="corpo">
+    <header>
+        <nav>
+            <a class="itens-cabecalho" href="index.html" target="_self">   Home       </a>  
+            <a class="itens-cabecalho" href="historia.html" target="_self"> História   </a>  
+            <a class="itens-cabecalho" href="quiz.html" target="_self">   Quiz       </a>  
+            <a class="itens-cabecalho" href="curiosidades.html" target="_self"> Curiosidades </a> 
+        </nav>
+
+        <picture id="img-header-container">
+            <img src="imagens/foto-titulo.png" alt="">
+        </picture>
+    </header>
+    <main>
+        <form>
+           <br>
+           <input  class="botao-mudancas" type="button" value="Mudar Cor Da Letra!" onclick="mudarCorLetra()">
+           <br>  <br> 
+           <input  class="botao-mudancas" type="button" value="Mudar Tamanho Da Letra!" onclick="mudarTamanhoLetra()">
+           <br>  <br> 
+           <input  class="botao-mudancas" type="button" value="Mudar Cor Do Background!" onclick="mudarCorBackground()">
+           <br>
+        </form>
+
+        <section >
+                     <!-- Carousel -->
+                    <div class="carousel">
+
+                        <!-- Imagens -->
+                        <div class="mySlides fade">
+                        <div class="numbertext">1 / 3</div>
+                        <img class="fotos" src="Imagens/img1.jpg" style="width:100%" alt="Imagem Robin Hood filme A origem">
+                        <div class="text">Robin Hood</div>
+                        </div>
+                    
+                        <div class="mySlides fade">
+                        <div id='numero_dois' class="numbertext">2 / 3</div>
+                        <img class="fotos"  src="Imagens/img2.jpg" style="width:100%" alt="Imagem do Vencedor das medalhas, o belga Hubert Van">
+                        <div  id='segunda-foto' class="text">Recorde de Medalhas</div>
+                        </div>
+                    
+                        <div class="mySlides fade">
+                        <div class="numbertext">3 / 3</div>
+                        <img class="fotos"  src="Imagens/img3.jpg" style="width:100%" alt="Imagem de atletas coreanos com troféus">
+                        <div class="text">Domínio Coreano</div>
+                        </div>
+                    
+                        <!--botão do antes e depois -->
+                        <a class="prev" onclick="atualizaSlide(-1)">&#10094;</a>
+                        <a class="next" onclick="atualizaSlide(1)">&#10095;</a>
+                    </div>
+
+                        <br>
+                        
+                        <!-- Pontinhos -->
+                    <div style="text-align:center">
+                            <span class="dot" onclick="slide_Atual(1)">   </span>
+                            <span class="dot" onclick="slide_Atual(2)">   </span>
+                            <span class="dot" onclick="slide_Atual(3)">   </span>
+                    </div>
+
+            <div id="container-01">
+                <div id="escrita">
+                    <h1>Robin Hood</h1>
+                    <p>O lendário herói da Idade Média empresta seu nome a uma das jogadas mais raras do tiro com arco: aquela em que o atleta consegue acertar a parte de trás de uma flecha que já está fincada no alvo e, assim, partir a flecha em questão. Quando isso ocorre, a jogada é chamada de Robin Hood e o atleta pode levar a flecha para casa para guardá-la como troféu de seu feito.</p>
+
+                    <h1> Recorde de Medalhas</h1>
+                        <p>O belga Hubert Van Innis detém o recorde de medalhas conquistadas no tiro com arco em Olimpíadas. Nos Jogos de Paris-1900, ele faturou duas medalhas de ouro e uma da prata. Vinte anos depois, nas Olimpíadas da Antuérpia, em 1920, conquistou quatro medalhas de ouro e duas de prata.</p>
+
+                        <h1>Domínimo Coreano</h1>
+                            <p>Os atletas da Coreia do Sul dominam o tiro com arco no cenário internacional. Das quatro medalhas de ouro em disputa nas Olimpíadas de Londres-2012 (FITA Olympic Round – 70m individual e por equipe, masculino e feminino), os coreanos faturaram três.
+                                </p>
+                </div>
+    
+                <picture>
+                    <img src="Imagens/target.jpg" alt="">
+                </picture>
+            </div>
+            <!--<div id="container-02">-->
+
+
+         
+        </section>
+
+
+    </main>
+
+    <footer>
+
+        <div id="container-wrap">
+            <div id="info-container">
+                <p> Thaíssa Lopes Moreira,</p>
+                <p> Estudante de Bacharelado em Sistemas de Informação, </p>
+                <p> Faculdade Federal do Estado do Rio de Janeiro - Unirio.    </p>
+            </div>
+            
+            <div class="menu-click-footer">
+                <a class="footer-click" href="index.html" target="_self">   Home       </a>  
+                <a class="footer-click" href="historia.html" target="_self"> História   </a>  
+                <a class="footer-click" href="quiz.html" target="_self">   Quiz       </a>  
+                <a class="footer-click" href="curiosidades.html" target="_self"> Curiosidades </a>     
+            </div>
+        </div>
+    </footer>
+    
+    <script src="javascript/curiosidades.js"></script> 
+</body>
+</html>
